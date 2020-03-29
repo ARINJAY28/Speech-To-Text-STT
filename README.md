@@ -20,7 +20,9 @@ For training, use the following commands:<br>
 - ```cd Train_Model```
 - ```python3 Train.py```<br>
 Before execuing the follwing commands, please make sure to change the corresponding train and validation directories in **Train.py** file.<br>
-Training took around 15 minutes on a GTX-1080, i7 processor with 16GB RAM<br>
+Training took around 15 minutes on a GTX-1080, i7 processor with 16GB RAM, for 100 epochs<br>
+![Data-Visualisation of a sample audio file](Images/Training_Diagnosis.png)<br>
+The loss at the last epoch was close to 0.5.<br>
 ### Predicting
 For predicting or testing out your audio samples, type-in the follwoing command:<br>
 - ```cd Prediction```
