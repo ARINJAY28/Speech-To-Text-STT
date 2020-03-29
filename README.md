@@ -5,6 +5,9 @@ This project is implemented using Python and Tensorflow(Keras). TensorFlow has r
 ## Usage
 ### Data-Collection
 The original Speech Commands Dataset by Tensorflow can be obtained [here](https://www.kaggle.com/c/tensorflow-speech-recognition-challenge)<br>
+If you want to visualise an audio file, execute the following commands:<br>
+- ```cd Data_Exploration```
+- ```python3 Data_Exploration.py```
 ### Data-Preprocessing
 The original dataset has a sampling rate 0f 16kHz and we preprocess it to 8kHz, as the speech frequencies are around 8kHz<br>
 ![Data-Visualisation of a sample audio file](Images/Visualise.png)<br>
@@ -16,6 +19,7 @@ This process might take from 15-20 minutes depending on the system. For Processe
 For training, use the following commands:<br>
 - ```cd Train_Model```
 - ```python3 Train.py```
+Before execuing the follwing commands, please make sure to change the corresponding train and validation directories in **Train.py** file.<br>
 Training took around 15 minutes on a GTX-1080, i7 processor with 16GB RAM<br>
 ### Predicting
 For predicting or testing out your audio samples, type-in the follwoing command:<br>
