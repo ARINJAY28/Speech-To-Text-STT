@@ -9,5 +9,5 @@ The original Speech Commands Dataset by Tensorflow can be obtained [here](https:
 The original dataset has a sampling rate 0f 16kHz and we preprocess it to 8kHz, as the speech frequencies are around 8kHz<br>
 ![Data-Visualisation of a sample audio file](Images/Visualise.png)<br>
 For this purpose, type-in the following commands:<br>
-'''cd Data_PreProcessing'''
+'''cd Data_PreProcessing'''<br>
 '''python3 Process.py'''
